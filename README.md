@@ -12,7 +12,7 @@
 #### Statistical Summary :
 ![Chart3](https://github.com/ajinderbains/MechaCar_Statistical_Analysis/blob/main/images/del2_PSI.png)
 
-#### Statitical Summary for each Lot:
+#### Statisical Summary for each Lot:
 ![chart4](https://github.com/ajinderbains/MechaCar_Statistical_Analysis/blob/main/images/del2_lot.png)
 
 1. Variance for total summary is 76.23 which is less than 100.
@@ -31,12 +31,12 @@ As it is clear from above screenshots for t test as whole and for all individual
 
 1. I will include the metric "fuel efficiency" in my prototype to compare with the competition.I  will collect the fuel efficiency mpg levels for MechaCar prototypes at 
 different distances and city ,Highway roads and test if the mean of this set is not less than the mean fuel efficiency mpg for comparable vehicles at the market.
-So I will also collect the fuel effcicency mpg levels for our competitors vehicles at different distances and city ,Highway roads.
+So I will also collect the fuel effciency mpg levels for our competitors vehicles at different distances and city ,Highway roads.
 
 2. So Hypotheses will be:
 
    H0: There is no statistical difference between MechaCar  mpg dataset and other comparable vehicles mpg dataset on the market.
-   Ha: The true mean of MechaCar MPG dataset is more than the mean of our competitors fuel efficiency values.
+   Ha: The true mean of MechaCar MPG dataset is more than the mean of competitor's fuel efficiency values.
 
 3. I will use paired t test for comparison:
 
@@ -46,7 +46,7 @@ So I will also collect the fuel effcicency mpg levels for our competitors vehicl
   
     **Paired** tells the t.test() function to perform a paired t-test. This value must be set to TRUE.
   
-    **alternative**  will be "greater" so that mean of X is greater than mena of y.
+    **alternative**  will be "greater" so that mean of X is greater than mean of y.
 
-4. P value for prototype/design will be compared with results.If it is less than 0.05 then MechaCar Null hypothesis is true otherwise Null hypothese will be rejected.
+4. P value for prototype/design will be compared with results.If it is less than 0.05 then MechaCar Null hypotheses is true otherwise Null hypotheses will be rejected.
 
