@@ -48,5 +48,13 @@ So I will also collect the fuel effciency mpg levels for our competitors vehicle
   
     **alternative**  will be "greater" so that mean of X is greater than mean of y.
 
-4. P value for prototype/design will be compared with results.If it is less than 0.05 then MechaCar Null hypotheses is true otherwise Null hypotheses will be rejected.
+4. I will need following data for statistical test.
+   - Model
+   - Manufacturing Year
+   - Cost
+   - Fuel Efficiency
+   - Fuel Efficiency in City Road
+   - Fuel efficiency on Highway
+
+
 
